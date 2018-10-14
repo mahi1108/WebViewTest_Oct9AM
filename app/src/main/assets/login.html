@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script language="JavaScript">
+            function login( )
+            {
+              var email = document.getElementById('email').value;
+              var pass = document.getElementById('password').value;
+              and9am_oct.displayMsg(email,pass)
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+                <table border="1">
+                    <tr><td colspan="2" align="center">
+                        <h2><b>LOGIN FORM</b></h2>
+                    </td> </tr>
+                    <tr><td>Email Id :</td>
+                   <td><input type="text" id="email"></td> </tr>
+                    <tr><td>
+                        Password :
+                    </td>
+                        <td><input type="password" id="password">
+                        </td> </tr>
+                    <tr><td colspan="2" align="center">
+                        <input type="button"
+                               value="LOGIN" onclick="login()">
+                    </td></tr>
+                </table>
+        </center>
+    </body>
+</html>
